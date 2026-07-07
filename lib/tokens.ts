@@ -1,14 +1,15 @@
 export const tokens = {
   colors: {
     light: {
-      background: "#FFFDF9",
-      primary: "#C7B8EA",
-      secondary: "#B4D9C5",
-      accent1: "#CCD6EB",
-      accent2: "#A9B8E8",
-      accent3: "#9CC7A1",
-      accent4: "#F5EFE0",
-      foreground: "#2E2E2E",
+      background: "#FAFAF8",
+      surface: "#FFFFFF",
+      foreground: "#1F1F1F",
+      secondary: "#666666",
+      lavender: "#D8C8F5",
+      pista: "#C9E4C5",
+      powderBlue: "#D7EAFB",
+      cream: "#FFF9F2",
+      border: "#E8E8E8",
     },
     dark: {
       background: "#0B0C14",
