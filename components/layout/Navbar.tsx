@@ -2,7 +2,7 @@ export default function Navbar() {
   const items = ["About", "Experience", "Projects", "Writing", "Resume"];
 
   return (
-    <nav className="w-full flex justify-center gap-8 py-8 font-[var(--font-literata)] text-sm text-[color:var(--text-secondary)]">
+    <nav className="w-full flex justify-center gap-8 py-8 font-[family-name:var(--font-literata)] text-sm text-[color:var(--text-secondary)]">
       {items.map((item) => (
         <span
           key={item}
