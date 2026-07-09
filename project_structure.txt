@@ -1,0 +1,126 @@
+./
+├── .next
+│   ├── dev
+│   │   ├── cache
+│   │   │   ├── turbopack
+│   │   │   │   └── v16.2.10
+│   │   │   └── next-devtools-config.json
+│   │   ├── logs
+│   │   ├── server
+│   │   │   ├── app
+│   │   │   │   ├── page
+│   │   │   │   │   ├── app-paths-manifest.json
+│   │   │   │   │   ├── build-manifest.json
+│   │   │   │   │   ├── next-font-manifest.json
+│   │   │   │   │   ├── react-loadable-manifest.json
+│   │   │   │   │   └── server-reference-manifest.json
+│   │   │   │   ├── page.js
+│   │   │   │   └── page_client-reference-manifest.js
+│   │   │   ├── chunks
+│   │   │   │   └── ssr
+│   │   │   │       ├── [externals]__12if52y._.js
+│   │   │   │       ├── [externals]_next_dist_1mg6puk._.js
+│   │   │   │       ├── [root-of-the-server]__06ue31-._.js
+│   │   │   │       ├── [root-of-the-server]__0bakp20._.js
+│   │   │   │       ├── [root-of-the-server]__0p4ofha._.js
+│   │   │   │       ├── [root-of-the-server]__0q-wurb._.js
+│   │   │   │       ├── [turbopack]_runtime.js
+│   │   │   │       ├── _next-internal_server_app_page_actions_0hhsz1j.js
+│   │   │   │       ├── node_modules_0h91jdk._.js
+│   │   │   │       ├── node_modules_next_dist_1mjyqi-._.js
+│   │   │   │       ├── node_modules_next_dist_client_components_0wpq8j3._.js
+│   │   │   │       ├── node_modules_next_dist_client_components_builtin_forbidden_0symwr9.js
+│   │   │   │       ├── node_modules_next_dist_client_components_builtin_global-error_0-o-goa.js
+│   │   │   │       ├── node_modules_next_dist_client_components_builtin_unauthorized_0l_sp0x.js
+│   │   │   │       ├── node_modules_next_dist_compiled_0d323sd._.js
+│   │   │   │       ├── node_modules_next_dist_esm_12zii0n._.js
+│   │   │   │       ├── node_modules_next_dist_esm_1_kobm0._.js
+│   │   │   │       └── node_modules_next_dist_server_route-modules_app-page_0qo_rmc._.js
+│   │   │   ├── app-paths-manifest.json
+│   │   │   ├── interception-route-rewrite-manifest.js
+│   │   │   ├── middleware-build-manifest.js
+│   │   │   ├── middleware-manifest.json
+│   │   │   ├── next-font-manifest.js
+│   │   │   ├── next-font-manifest.json
+│   │   │   ├── pages-manifest.json
+│   │   │   ├── server-reference-manifest.js
+│   │   │   └── server-reference-manifest.json
+│   │   ├── static
+│   │   │   ├── chunks
+│   │   │   │   ├── [next]_internal_font_google_cormorant_garamond_9f867090_module_css_1igg3k2._.single.css
+│   │   │   │   ├── [next]_internal_font_google_geist_a71539c9_module_css_1igg3k2._.single.css
+│   │   │   │   ├── [next]_internal_font_google_geist_mono_8d43a2aa_module_css_1igg3k2._.single.css
+│   │   │   │   ├── [next]_internal_font_google_instrument_serif_fe3917d0_module_css_1igg3k2._.single.css
+│   │   │   │   ├── [next]_internal_font_google_literata_4ac1712d_module_css_1igg3k2._.single.css
+│   │   │   │   ├── [root-of-the-server]__08b_u6q._.css
+│   │   │   │   ├── [root-of-the-server]__0cbk-n2._.css
+│   │   │   │   ├── [turbopack]_browser_dev_hmr-client_hmr-client_ts_1mojsay._.js
+│   │   │   │   ├── [turbopack]_browser_dev_hmr-client_hmr-client_ts_1xch-cm._.js
+│   │   │   │   ├── [turbopack]_browser_dev_hmr-client_hmr-client_ts_1xx01vv._.js
+│   │   │   │   ├── _1anvha4._.js
+│   │   │   │   ├── app_globals_css_1igg3k2._.single.css
+│   │   │   │   ├── app_layout_tsx_007e4b2._.js
+│   │   │   │   ├── node_modules_@swc_helpers_cjs_1r9vbqw._.js
+│   │   │   │   ├── node_modules_next_dist_1e9_p6y._.js
+│   │   │   │   ├── node_modules_next_dist_1ybzpk2._.js
+│   │   │   │   ├── node_modules_next_dist_build_polyfills_polyfill-nomodule.js
+│   │   │   │   ├── node_modules_next_dist_client_0r5nbpw._.js
+│   │   │   │   ├── node_modules_next_dist_client_components_builtin_global-error_06p2yvs.js
+│   │   │   │   ├── node_modules_next_dist_client_components_builtin_global-error_1-7dtlk.js
+│   │   │   │   ├── node_modules_next_dist_compiled_1amofcm._.js
+│   │   │   │   ├── node_modules_next_dist_compiled_next-devtools_index_090k2jm.js
+│   │   │   │   ├── node_modules_next_dist_compiled_react-dom_096_9a-._.js
+│   │   │   │   ├── node_modules_next_dist_compiled_react-server-dom-turbopack_164kp-6._.js
+│   │   │   │   └── turbopack-_01_ro95._.js
+│   │   │   ├── development
+│   │   │   │   ├── _buildManifest.js
+│   │   │   │   ├── _clientMiddlewareManifest.js
+│   │   │   │   └── _ssgManifest.js
+│   │   │   └── media
+│   │   ├── types
+│   │   │   ├── cache-life.d.ts
+│   │   │   ├── routes.d.ts
+│   │   │   └── validator.ts
+│   │   ├── build-manifest.json
+│   │   ├── fallback-build-manifest.json
+│   │   ├── package.json
+│   │   ├── prerender-manifest.json
+│   │   └── routes-manifest.json
+│   └── types
+│       ├── cache-life.d.ts
+│       ├── routes.d.ts
+│       └── validator.ts
+├── app
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx
+├── components
+│   └── layout
+│       ├── hero
+│       │   ├── Hero.tsx
+│       │   ├── HeroIntro.tsx
+│       │   ├── HeroName.tsx
+│       │   └── HeroThought.tsx
+│       ├── Navbar.tsx
+│       └── ThemeToggle.tsx
+├── content
+├── data
+├── docs
+│   └──  design-bible.md
+├── hooks
+├── lib
+│   └── tokens.ts
+├── public
+├── sections
+├── styles
+├── AGENTS.md
+├── CLAUDE.md
+├── eslint.config.mjs
+├── next-env.d.ts
+├── next.config.ts
+├── package-lock.json
+├── package.json
+├── postcss.config.mjs
+├── project_structure.py
+├── README.md
+└── tsconfig.json

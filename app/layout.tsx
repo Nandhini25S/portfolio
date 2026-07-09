@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Instrument_Serif, Cormorant_Garamond, Literata } from "next/font/google";
 import "./globals.css";
+import "@/styles/experience.css";
 
 const instrumentSerif = Instrument_Serif({
   weight: "400",

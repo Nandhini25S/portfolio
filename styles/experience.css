@@ -1,0 +1,61 @@
+/* Frame identity — placeholder tints, swap with texture images later */
+.frame-walnut {
+    --frame-color: #8a6a4f;
+    --frame-tint: rgba(138, 106, 79, 0.10);
+}
+
+.frame-brass {
+    --frame-color: #b8a06a;
+    --frame-tint: rgba(184, 160, 106, 0.10);
+}
+
+.frame-oak {
+    --frame-color: #4d3a2f;
+    --frame-tint: rgba(77, 58, 47, 0.12);
+}
+
+.frame-maple {
+    --frame-color: #c9a876;
+    --frame-tint: rgba(201, 168, 118, 0.10);
+}
+
+.exp-rope {
+    stroke: var(--frame-color);
+    opacity: 0.55;
+}
+
+.exp-pin {
+    fill: var(--frame-color);
+}
+
+.exp-frame-border {
+    border-color: var(--frame-color);
+    background: var(--frame-tint);
+}
+
+.exp-frame-swing {
+    transform-origin: top center;
+    transition: transform 320ms ease-out, box-shadow 320ms ease-out;
+}
+
+.exp-frame-swing:hover,
+.exp-frame-swing.is-active {
+    transform: rotate(-4deg);
+    box-shadow: 0 14px 24px rgba(0, 0, 0, 0.08);
+}
+
+.exp-panel-enter {
+    animation: exp-panel-in 320ms ease-out forwards;
+}
+
+@keyframes exp-panel-in {
+    from {
+        opacity: 0;
+        transform: translateY(16px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
