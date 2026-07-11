@@ -8,6 +8,33 @@
 │   │   ├── logs
 │   │   ├── server
 │   │   │   ├── app
+│   │   │   │   ├── _not-found
+│   │   │   │   │   ├── page
+│   │   │   │   │   │   ├── app-paths-manifest.json
+│   │   │   │   │   │   ├── build-manifest.json
+│   │   │   │   │   │   ├── next-font-manifest.json
+│   │   │   │   │   │   ├── react-loadable-manifest.json
+│   │   │   │   │   │   └── server-reference-manifest.json
+│   │   │   │   │   ├── page.js
+│   │   │   │   │   └── page_client-reference-manifest.js
+│   │   │   │   ├── archive
+│   │   │   │   │   ├── page
+│   │   │   │   │   │   ├── app-paths-manifest.json
+│   │   │   │   │   │   ├── build-manifest.json
+│   │   │   │   │   │   ├── next-font-manifest.json
+│   │   │   │   │   │   ├── react-loadable-manifest.json
+│   │   │   │   │   │   └── server-reference-manifest.json
+│   │   │   │   │   ├── page.js
+│   │   │   │   │   └── page_client-reference-manifest.js
+│   │   │   │   ├── experience
+│   │   │   │   │   ├── page
+│   │   │   │   │   │   ├── app-paths-manifest.json
+│   │   │   │   │   │   ├── build-manifest.json
+│   │   │   │   │   │   ├── next-font-manifest.json
+│   │   │   │   │   │   ├── react-loadable-manifest.json
+│   │   │   │   │   │   └── server-reference-manifest.json
+│   │   │   │   │   ├── page.js
+│   │   │   │   │   └── page_client-reference-manifest.js
 │   │   │   │   ├── page
 │   │   │   │   │   ├── app-paths-manifest.json
 │   │   │   │   │   ├── build-manifest.json
@@ -20,13 +47,28 @@
 │   │   │   │   └── ssr
 │   │   │   │       ├── [externals]__12if52y._.js
 │   │   │   │       ├── [externals]_next_dist_1mg6puk._.js
+│   │   │   │       ├── [externals]_next_dist_shared_lib_no-fallback-error_external_0r3u29k.js
 │   │   │   │       ├── [root-of-the-server]__06ue31-._.js
+│   │   │   │       ├── [root-of-the-server]__08meljx._.js
 │   │   │   │       ├── [root-of-the-server]__0bakp20._.js
+│   │   │   │       ├── [root-of-the-server]__0e5sojs._.js
 │   │   │   │       ├── [root-of-the-server]__0p4ofha._.js
 │   │   │   │       ├── [root-of-the-server]__0q-wurb._.js
+│   │   │   │       ├── [root-of-the-server]__1sez1yh._.js
+│   │   │   │       ├── [root-of-the-server]__20hx_01._.js
 │   │   │   │       ├── [turbopack]_runtime.js
+│   │   │   │       ├── _0m7w5-0._.js
+│   │   │   │       ├── _next-internal_server_app__not-found_page_actions_0pt47yr.js
+│   │   │   │       ├── _next-internal_server_app_archive_page_actions_0u9z3w-.js
+│   │   │   │       ├── _next-internal_server_app_experience_page_actions_0l16_7j.js
 │   │   │   │       ├── _next-internal_server_app_page_actions_0hhsz1j.js
 │   │   │   │       ├── node_modules_0h91jdk._.js
+│   │   │   │       ├── node_modules_1-noad6._.js
+│   │   │   │       ├── node_modules_175xx9i._.js
+│   │   │   │       ├── node_modules_1e_stzl._.js
+│   │   │   │       ├── node_modules_1hsea6e._.js
+│   │   │   │       ├── node_modules_1mz54ns._.js
+│   │   │   │       ├── node_modules_next_dist_00764-c._.js
 │   │   │   │       ├── node_modules_next_dist_1mjyqi-._.js
 │   │   │   │       ├── node_modules_next_dist_client_components_0wpq8j3._.js
 │   │   │   │       ├── node_modules_next_dist_client_components_builtin_forbidden_0symwr9.js
@@ -54,23 +96,31 @@
 │   │   │   │   ├── [next]_internal_font_google_literata_4ac1712d_module_css_1igg3k2._.single.css
 │   │   │   │   ├── [root-of-the-server]__08b_u6q._.css
 │   │   │   │   ├── [root-of-the-server]__0cbk-n2._.css
+│   │   │   │   ├── [root-of-the-server]__0jfsg7h._.css
 │   │   │   │   ├── [turbopack]_browser_dev_hmr-client_hmr-client_ts_1mojsay._.js
 │   │   │   │   ├── [turbopack]_browser_dev_hmr-client_hmr-client_ts_1xch-cm._.js
 │   │   │   │   ├── [turbopack]_browser_dev_hmr-client_hmr-client_ts_1xx01vv._.js
+│   │   │   │   ├── _0cj108p._.js
 │   │   │   │   ├── _1anvha4._.js
+│   │   │   │   ├── app_archive_page_tsx_0-88bf0._.js
+│   │   │   │   ├── app_experience_page_tsx_0-88bf0._.js
 │   │   │   │   ├── app_globals_css_1igg3k2._.single.css
 │   │   │   │   ├── app_layout_tsx_007e4b2._.js
+│   │   │   │   ├── app_page_tsx_0-88bf0._.js
 │   │   │   │   ├── node_modules_@swc_helpers_cjs_1r9vbqw._.js
+│   │   │   │   ├── node_modules_next_dist_0bb1by5._.js
 │   │   │   │   ├── node_modules_next_dist_1e9_p6y._.js
 │   │   │   │   ├── node_modules_next_dist_1ybzpk2._.js
 │   │   │   │   ├── node_modules_next_dist_build_polyfills_polyfill-nomodule.js
 │   │   │   │   ├── node_modules_next_dist_client_0r5nbpw._.js
+│   │   │   │   ├── node_modules_next_dist_client_components_builtin_global-error_0-88bf0.js
 │   │   │   │   ├── node_modules_next_dist_client_components_builtin_global-error_06p2yvs.js
 │   │   │   │   ├── node_modules_next_dist_client_components_builtin_global-error_1-7dtlk.js
 │   │   │   │   ├── node_modules_next_dist_compiled_1amofcm._.js
 │   │   │   │   ├── node_modules_next_dist_compiled_next-devtools_index_090k2jm.js
 │   │   │   │   ├── node_modules_next_dist_compiled_react-dom_096_9a-._.js
 │   │   │   │   ├── node_modules_next_dist_compiled_react-server-dom-turbopack_164kp-6._.js
+│   │   │   │   ├── styles_experience_css_1igg3k2._.single.css
 │   │   │   │   └── turbopack-_01_ro95._.js
 │   │   │   ├── development
 │   │   │   │   ├── _buildManifest.js
@@ -91,10 +141,21 @@
 │       ├── routes.d.ts
 │       └── validator.ts
 ├── app
+│   ├── archive
+│   │   └── page.tsx
+│   ├── experience
+│   │   └── page.tsx
 │   ├── globals.css
 │   ├── layout.tsx
 │   └── page.tsx
 ├── components
+│   ├── archive
+│   │   ├── ArchiveEntry.tsx
+│   │   └── ArchiveList.tsx
+│   ├── experience
+│   │   ├── ExperienceFrame.tsx
+│   │   ├── ExperienceGallery.tsx
+│   │   └── ExperiencePanel.tsx
 │   └── layout
 │       ├── hero
 │       │   ├── Hero.tsx
@@ -105,6 +166,8 @@
 │       └── ThemeToggle.tsx
 ├── content
 ├── data
+│   ├── archive.ts
+│   └── experience.ts
 ├── docs
 │   └──  design-bible.md
 ├── hooks
@@ -113,6 +176,7 @@
 ├── public
 ├── sections
 ├── styles
+│   └── experience.css
 ├── AGENTS.md
 ├── CLAUDE.md
 ├── eslint.config.mjs
