@@ -33,15 +33,13 @@
     background: var(--frame-tint);
 }
 
-.exp-frame-swing {
+.exp-hang {
     transform-origin: top center;
-    transition: transform 320ms ease-out, box-shadow 320ms ease-out;
+    transition: transform 320ms ease-out;
 }
 
-.exp-frame-swing:hover,
-.exp-frame-swing.is-active {
+.exp-hang:hover {
     transform: rotate(-4deg);
-    box-shadow: 0 14px 24px rgba(0, 0, 0, 0.08);
 }
 
 .exp-panel-enter {

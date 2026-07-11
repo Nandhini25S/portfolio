@@ -6,7 +6,7 @@ import ExperienceFrame from "./ExperienceFrame";
 import ExperiencePanel from "./ExperiencePanel";
 
 export default function ExperienceGallery() {
-    const [activeId, setActiveId] = useState<string | null>(experiences[0]?.id ?? null);
+    const [activeId, setActiveId] = useState<string | null>(null);
 
     const active = experiences.find((e) => e.id === activeId) ?? null;
 
@@ -17,7 +17,6 @@ export default function ExperienceGallery() {
                     <ExperienceFrame
                         key={experience.id}
                         experience={experience}
-                        isActive={experience.id === activeId}
                         onSelect={() => setActiveId(experience.id)}
                     />
                 ))}

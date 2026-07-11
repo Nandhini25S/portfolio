@@ -10,7 +10,7 @@ export default function ExperiencePanel({
     return (
         <div
             key={experience.id}
-            className={`exp-panel-enter frame-${experience.frame} relative mt-16 grid grid-cols-1 md:grid-cols-[280px_1fr] gap-8 rounded-lg border border-[color:var(--border)] bg-[color:var(--surface)] p-8`}
+            className={`exp-panel-enter frame-${experience.frame} relative mt-16 grid grid-cols-1 md:grid-cols-[2fr_3fr] gap-10 rounded-lg border border-[color:var(--border)] bg-[color:var(--surface)] p-8`}
         >
             <button
                 type="button"
@@ -22,7 +22,9 @@ export default function ExperiencePanel({
             </button>
 
             {/* artwork area — intentionally empty, to be filled later */}
-            <div className="exp-frame-border border-[3px] aspect-[4/5] w-full" />
+            <div className="exp-frame-border border-[3px] aspect-[4/5] w-full p-6">
+                <div className="w-full h-full bg-[color:var(--surface)]" />
+            </div>
 
             <div>
                 <h2 className="font-[family-name:var(--font-instrument-serif)] text-3xl text-[color:var(--text-primary)]">
