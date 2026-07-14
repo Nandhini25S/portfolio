@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Instrument_Serif, Cormorant_Garamond, Literata } from "next/font/google";
 import "./globals.css";
 import "@/styles/experience.css";
-import ThemeToggle from "@/components/layout/ThemeToggle";
 
 const instrumentSerif = Instrument_Serif({
   weight: "400",
@@ -36,7 +35,6 @@ export default function RootLayout({
         className={`${instrumentSerif.variable} ${cormorant.variable} ${literata.variable} font-sans`}
       >
         {children}
-        <ThemeToggle />
       </body>
     </html>
   );

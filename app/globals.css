@@ -2,25 +2,25 @@
 @import "tailwindcss";
 
 :root {
-  --background: #FAFAF8;
-  --surface: #FFFFFF;
-  --text-primary: #1F1F1F;
-  --text-secondary: #666666;
-  --accent-lavender: #D8C8F5;
-  --accent-pista: #C9E4C5;
-  --accent-blue: #D7EAFB;
-  --accent-cream: #FFF9F2;
-  --border: #E8E8E8;
-  --shadow: rgba(0, 0, 0, 0.04);
+  --background-top: #070B16;
+  --background-mid: #161B3A;
+  --background-bottom: #2A2455;
+  --surface: #12172B;
+  --text-primary: #EDEDF2;
+  --text-secondary: #9A9AB0;
+  --accent-lavender: #B9A9E0;
+  --accent-periwinkle: #9AAEE0;
+  --accent-sage: #8FBFA0;
+  --accent-mist: #7E93B8;
+  --border: #232435;
+  --glow: rgba(194, 180, 234, 0.4);
 }
 
 body {
-  background:
-    radial-gradient(1200px 900px at 0% 0%, rgba(216, 200, 245, 0.10), transparent 60%),
-    radial-gradient(1200px 900px at 100% 100%, rgba(201, 228, 197, 0.08), transparent 60%),
-    var(--background);
-  background-repeat: no-repeat, no-repeat, no-repeat;
-  background-attachment: fixed, fixed, fixed;
+  background: linear-gradient(to bottom,
+      var(--background-top) 0%,
+      var(--background-mid) 45%,
+      var(--background-bottom) 100%);
   color: var(--text-primary);
   position: relative;
 }
@@ -31,8 +31,8 @@ body::before {
   inset: 0;
   z-index: 1;
   pointer-events: none;
-  opacity: 0.5;
-  mix-blend-mode: multiply;
+  opacity: 0.08;
+  mix-blend-mode: overlay;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400'%3E%3Cfilter id='paper'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.012' numOctaves='5' seed='7' result='noise'/%3E%3CfeDiffuseLighting in='noise' lighting-color='white' surfaceScale='2' diffuseConstant='1.2' result='light'%3E%3CfeDistantLight azimuth='235' elevation='55'/%3E%3C/feDiffuseLighting%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23paper)'/%3E%3C/svg%3E");
   background-size: 400px 400px;
   background-repeat: repeat;
@@ -40,4 +40,27 @@ body::before {
 
 html {
   scrollbar-gutter: stable;
+  scroll-behavior: smooth;
+}
+
+@keyframes twinkle {
+
+  0%,
+  100% {
+    opacity: 0.15;
+    transform: scale(0.8);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale(1.15);
+  }
+}
+
+.animate-twinkle {
+  animation: twinkle infinite ease-in-out;
+}
+
+.star-diamond {
+  clip-path: polygon(50% 0%, 62% 38%, 100% 50%, 62% 62%, 50% 100%, 38% 62%, 0% 50%, 38% 38%);
 }

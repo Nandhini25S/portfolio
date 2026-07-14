@@ -1,25 +1,17 @@
 export const tokens = {
   colors: {
-    light: {
-      background: "#FAFAF8",
-      surface: "#FFFFFF",
-      foreground: "#1F1F1F",
-      secondary: "#666666",
-      lavender: "#D8C8F5",
-      pista: "#C9E4C5",
-      powderBlue: "#D7EAFB",
-      cream: "#FFF9F2",
-      border: "#E8E8E8",
-    },
-    dark: {
-      background: "#0B0C14",
-      primary: "#B9A9E0",
-      secondary: "#8FBFA0",
-      accent1: "#9AAEE0",
-      accent2: "#C2B4EA",
-      accent3: "#7FA88F",
-      accent4: "#1A1B26",
+    night: {
+      backgroundTop: "#070B16",
+      backgroundBottom: "#111A35",
+      surface: "#12172B",
       foreground: "#EDEDF2",
+      secondary: "#9A9AB0",
+      lavender: "#B9A9E0",
+      periwinkle: "#9AAEE0",
+      sage: "#8FBFA0",
+      mistBlue: "#7E93B8",
+      border: "#232435",
+      glow: "rgba(194, 180, 234, 0.4)",
     },
   },
   fontSize: {
@@ -37,9 +29,9 @@ export const tokens = {
     full: "9999px",
   },
   shadow: {
-    sm: "0 1px 2px rgba(0,0,0,0.04)",
-    md: "0 4px 10px rgba(0,0,0,0.06)",
-    lg: "0 10px 20px rgba(0,0,0,0.08)",
+    sm: "0 1px 2px rgba(0,0,0,0.2)",
+    md: "0 4px 10px rgba(0,0,0,0.3)",
+    lg: "0 10px 24px rgba(0,0,0,0.4)",
   },
   transition: {
     fast: "150ms ease",
