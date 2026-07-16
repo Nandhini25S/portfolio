@@ -2,24 +2,28 @@
 @import "tailwindcss";
 
 :root {
-  --background-top: #070B16;
-  --background-mid: #161B3A;
-  --background-bottom: #2A2455;
-  --surface: #12172B;
-  --text-primary: #EDEDF2;
-  --text-secondary: #9A9AB0;
-  --accent-lavender: #B9A9E0;
-  --accent-periwinkle: #9AAEE0;
-  --accent-sage: #8FBFA0;
-  --accent-mist: #7E93B8;
-  --border: #232435;
-  --glow: rgba(194, 180, 234, 0.4);
+  --background-top: #050506;
+  --background-mid-1: #2A2C42;
+  --background-mid-2: #3D3E56;
+  --background-mid-3: #837A8C;
+  --background-bottom: #C6A8A3;
+  --surface: #1C1D2E;
+  --text-primary: #EDEAE8;
+  --text-secondary: #A79FA5;
+  --accent-lavender: #9A8FA8;
+  --accent-periwinkle: #7C7C9C;
+  --accent-dusty-rose: #C6A8A3;
+  --accent-mist: #5F6178;
+  --border: #3D3E56;
+  --glow: rgba(131, 122, 140, 0.4);
 }
 
 body {
   background: linear-gradient(to bottom,
       var(--background-top) 0%,
-      var(--background-mid) 45%,
+      var(--background-mid-1) 30%,
+      var(--background-mid-2) 50%,
+      var(--background-mid-3) 75%,
       var(--background-bottom) 100%);
   color: var(--text-primary);
   position: relative;
@@ -47,12 +51,10 @@ html {
 
   0%,
   100% {
-    opacity: 0.15;
     transform: scale(0.8);
   }
 
   50% {
-    opacity: 1;
     transform: scale(1.15);
   }
 }

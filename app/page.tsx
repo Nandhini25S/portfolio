@@ -6,12 +6,13 @@ import ArchiveList from "@/components/archive/ArchiveList";
 import Projects from "@/components/projects/Projects";
 import Writing from "@/components/writing/Writing";
 import StarField from "@/components/atmosphere/StarField";
-
+import ScrollTextTone from "@/components/atmosphere/ScrollTextTone";
 
 export default function Home() {
   return (
     <main className="min-h-screen flex flex-col">
       <StarField />
+      <ScrollTextTone />
       <Navbar />
 
       <section id="about">
